@@ -6,7 +6,8 @@
 2. Create an S3 bucket for your files
 
 ### Amazon Comrehend analysis through Console
-1. Prepare your data. I used Twitter API to clreate a .csv files for specific queries. 
+1. Prepare your data. I used Twitter API to clreate a .csv files for specific queries.
+https://github.com/tanyazyabkina/AmazonComprehend/blob/master/get_tweets_for_terms.ipynb
 2. Upload your data into your S3 bucket. Create a separate folder for the resutls.
 3. Create Analysis Job for your analysis.
 4. Once the job finishes running, download the output file.
@@ -21,9 +22,11 @@ https://github.com/tanyazyabkina/AmazonComprehend/blob/master/AWS_Comprehend_JSO
 4. Create an S3 bucket for your file
 5. Install python packages: boto3, pandas, json
 ### Analyze text using Amazon Comprehend API
-1. Upload your data into S3 bucket.
-2. Create analysis job.
-3. Run analysis job.
-4. Download results from S3 bucket.
-5. Process the JSON output to understand the results.
+1. Prepare your data. I used Twitter API to clreate a .csv files for specific queries.
+https://github.com/tanyazyabkina/AmazonComprehend/blob/master/get_tweets_for_terms.ipynb
+2. Upload your data into S3 bucket.
+3. Create analysis job.
+4. Run analysis job.
+5. Download results from S3 bucket.
+6. Process the JSON output to understand the results.
 https://github.com/tanyazyabkina/AmazonComprehend/blob/master/AWS_Comprehend_JSON_to_CSV.ipynb
