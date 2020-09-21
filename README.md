@@ -1,4 +1,4 @@
-# Amazon Comprehend for Natural Language Processes (NLP)
+# Amazon Comprehend for Natural Language Processing (NLP)
 
 ## Using Amazon Comprehend through AWS Console
 ### Preparation steps for using Comprehend through the console
