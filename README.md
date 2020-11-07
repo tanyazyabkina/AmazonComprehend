@@ -30,13 +30,13 @@ https://github.com/tanyazyabkina/AmazonComprehend/blob/master/AWS_Comprehend_JSO
 ### Analyze text using Amazon Comprehend API
 1. Prepare your data. I used Twitter API to clreate a .csv files for specific queries.
 https://github.com/tanyazyabkina/AmazonComprehend/blob/master/get_tweets_for_terms.ipynb
-
-Code for 2-6 is here: https://github.com/tanyazyabkina/AmazonComprehend/blob/master/Use_Amazon_Comprehend_API_GitHub_.ipynb
 2. Upload your data into S3 bucket.
 3. Create analysis job.
 4. Run analysis job.
 5. Download results from S3 bucket.
 6. Process the JSON output to understand the results.
+
+Code for 2-6: https://github.com/tanyazyabkina/AmazonComprehend/blob/master/Use_Amazon_Comprehend_API_GitHub_.ipynb
 
 Additional outputs JSON to CSV
 https://github.com/tanyazyabkina/AmazonComprehend/blob/master/AWS_Comprehend_JSON_to_CSV.ipynb
