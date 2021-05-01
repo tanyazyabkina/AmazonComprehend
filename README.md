@@ -1,7 +1,7 @@
 # Amazon Comprehend for Natural Language Processing (NLP)
 
 ## Cost
-If you are using free AWS tier, you can analyze 50K units a month free. In my example, every tweet is a unit. In the scheduled job I am analyzing 10K tweets at once, so the free tier runs out pretty fast, and then it's \$1 per 10K. Be sure to check pricing before you proceed. https://aws.amazon.com/comprehend/pricing/
+If you are using free AWS tier, you can analyze 50K units a month free. A unit is 100 characters. In my example, every tweet is ~2 units. In the scheduled job I am analyzing 10K tweets at once, so the free tier limit runs out pretty fast, and then it's \$1 per 10K. Be sure to check pricing before you proceed. https://aws.amazon.com/comprehend/pricing/
 
 ## Using Amazon Comprehend through AWS Console
 ### Preparation steps for using Comprehend through the console
